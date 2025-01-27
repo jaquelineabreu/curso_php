@@ -124,5 +124,65 @@
         echo "o nome coincide <br>";
     }
 
+    echo "<br>";
+    echo "<br>";
+
+    echo "operador identico a";
+    echo "<br> ----------------------- <br>";
+
+    if (5 == "5"){
+        echo "5 é 5 1<br>";
+    }
+
+    //operador identico
+    if (5 === "5"){
+        echo "5 é 5 2<br>";
+    }
+
+    //operador identico
+    if (5 === 5){
+        echo "5 é 5 3<br>";
+    }
+
+
+    echo "<br>";
+    echo "<br>";
+
+    echo "operador diferente !=";
+    echo "<br> ----------------------- <br>";
+
+    //operador diferença
+    if (5 != 4){
+        echo "5 é diferente de 4 <br>";
+    }
+
+     //operador diferença
+    if (5 != 5){
+        echo "5 é diferente de 5 <br>";
+    }
+
+
+    echo "<br>";
+    echo "<br>";
+
+    echo "operador não identico a !== ";
+    echo "<br> ----------------------- <br>";
+
+    $a1 = 1;
+    $a2 = "1";
+
+    if ($a1 != $a2){
+        echo "A1 é diferente de a2 teste 1<br>";
+    }
+
+    if ($a1 !== $a2){
+        echo "A1 é diferente de a2 teste 2<br>";
+    }
+
+
+
+    echo "<br>";
+    echo "<br>";
+
 
 
